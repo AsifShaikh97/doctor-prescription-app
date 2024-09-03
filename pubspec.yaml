@@ -1,0 +1,59 @@
+name: doctor_prescription_app
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  pdf: ^3.3.0
+  path_provider: ^2.0.11
+  share: ^2.0.4
+  speech_to_text: ^7.0.0
+  image_picker:
+  dotted_border:
+  flutter_bloc: ^8.1.6
+  hydrated_bloc: ^9.1.5
+  equatable:
+  fluttertoast: ^8.2.8
+  permission_handler:
+  get: ^4.6.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/Doctor.ttf
+    - assets/fonts/Doctor Vista.ttf
+    - assets/fonts/DoctorSignature-rgl39.otf
+
+  fonts:
+    - family: Doctor
+      fonts:
+        - asset: assets/fonts/Doctor.ttf
+
+    - family: DoctorVista
+      fonts:
+        - asset: assets/fonts/Doctor Vista.ttf
+
+    - family: DoctorSignature
+      fonts:
+        - asset: assets/fonts/DoctorSignature-rgl39.otf
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins_regular.ttf
